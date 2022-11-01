@@ -1,0 +1,78 @@
+1
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+float L, i, B, F, sin;
+cin >> L >> i >> B;
+F = L*i*B*sin;
+cout << F;
+}
+2
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+int r=6350, h, S;
+cin >> h;
+S=sqrt(h*h)+sqrt(r*r);
+cout << S;
+}
+3
+#include<stdio.h>
+unsigned int doublefactorial(unsigned int n)
+{
+ if (n == 0 || n==1)
+ return 1;
+ return n*doublefactorial(n-2);
+}
+int main()
+{
+ printf("Double factorial is %d", doublefactorial(7));
+ return 0;
+}
+4
+#include <iostream
+using namespace std;
+int main()
+{
+Float a, N;
+Cin >> a;
+N = a/0,454;
+Cout << N;
+}
+5
+#include <iostream>
+Using namespace std;
+Int main()
+{
+Float n, p;
+Int i;
+Cout << ('n=') ;
+Cin >> n;
+If (n mod 2=1);
+I=1;
+Else
+I=2;
+While (i<=n) {
+P*=i;
+I+=2} 
+Cout << (n, '!! =' P) ;
+} 
+6
+#include <iostream>
+using namespace std;
+int main()
+{
+ unsigned long long k = 1; // k = зерна вначале 
+ unsigned long long s = 0; // s = всего зёрен
+// i = клетка 
+ 
+ for ( int i=1; i<=64; i++){
+ s += k;
+ cout << i << "; k=" << k << "; s=" << s << endl;
+ k = k * 2;
+ }
+}
